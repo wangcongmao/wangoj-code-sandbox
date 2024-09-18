@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+docker:
+  host: tcp://124.70.97.179:2375
+  api-version: 1.41
+
+# 接口文档配置
+knife4j:
+  enable: true
+  openapi:
+    title: "接口文档"
+    version: 1.0
+
+
+
